@@ -144,3 +144,76 @@ existe un nivel gratuito en casi todos los servicios.
 
 el cambio y la cantidad de los recuros es instantaneo.
 
+### Clase 10 Finalización: entendimiento de la nube
+
+Cloud = internet
+
+cualquier dispositivo que se conecte y trasmita infroamción tiene acceso a la nube
+
+las terminales tontas, no tienen ningun poder de computo, pero podian acceder a una central que si lo tenia.
+
+Ahora, con la conexión se poduede trabajar con un gran servidor.
+
+ahora se pude tener un potencial ilimitado.
+
+ahora, cualquier computador puede funcionar como una terminal tonta.
+
+ahora se conectan a numeroosos servidores, como hipervisores.
+
+### 11 Ventajas de la computacion en la nube.
+
+Ahorro en hardware, archivos disponibles, desde cualquier maquina en internet.
+
+En lugar de pagar por hardware se puede pagar por un servicio.
+
+en terminos de TI, no se requiere configurar, realizar manteminiento, regulación de la temperatura, para el departamento de TI.
+
+Cuando falla el hardware, se debe pasar por todo el tramite de adquisición, en cambio en cloud, ese dolor de cabeza pasa por el prestador del servicio. al igual que los respaldos etc.
+
+6 Venatajas de la computación en la nube:
+
+1. Gasto de capital comercial por gasto variable
+2. Beneficiarse de enormes economias de escala
+   1. Los proveedores poseen casi una capacidad ilimitada
+3. Deja de adivinar la capacidad
+   1. Se olvida de la preocupación de comprar muy poco o demasiado de algo.
+   2. solo se paga sobre la marcha, por lo cual la atencion y el dinero no se enfoca en esto
+4. Aumenta la velocidad y la agilidad
+5. Deje de gastar dinero en ejecutar y mantener centros de datos
+6. Globalizate en minutos
+
+### 12 Modelos de computación en la nube
+
+Existen 3 tipos de Modelos de servicios en la nube:
+
+1. **SaaS:** Sofware como servicio, Sofware as a Services 
+2. **PaaS:** Plataforma como servicio, *Plataform as a Services*
+3. **IaaS:** Infraestructura como servicio, Infrastructure as a Service.
+
+#### IaaS: Infraestructura como servicio, Infrastructure as a Service
+
+La IaaS, contiene los bloques de creación fundamentales para la TI en la nube.
+Por lo general, permite acceder a las caracteristicas de conexion en red, a los equipos (virtuales o en sofware dedicado) y al espacio de almacenamiento de datos. La infraestructura como servicio le ofrece el mayor nivel de flexibilidad y control de la administración en torno a sus recuros sde TI y guarda el mayor parecido con los recusrsos de TI existentes con lo que muchos departamentos de TI y desarrolladores estan familiarizados
+
+- Bloques de construcción básicos
+- control de Gestion más flexible
+- Más cencano a tener un centro de datos locarl tradicional.
+
+Se tiene control sobre:
+
+- la red
+- seguridad
+- la computadora
+- los servidores
+
+proporciona la mayor flexibilidad para todos los otros sistemas de computación en la nube, es lo más cceracno a tener un centro de datos local: los más conocidos sistemas IaaS son  AWS, Azure, Google cloud.
+
+se puede modificar y controlar casi todas las partes de la tecnología en la nube para adapatarse a sus necesidades sin tener que comprar y administrar el HardWare real.
+
+#### PaaS: Plataform as a Services
+
+- implmente y administr aplicaciones sin preocupaciones.
+- Ejecute lenguajes de programación para alojar aplicaciones.
+- Menos flexibilidad que **IaaS**, ya que los paquetes están precosntruidos.
+
+PaaS eliminan la necesidad de compañias de administrar la infraestructura subyacente (Normalmente hardware y sistemas operativos) y permiten centrarse en la implmentación y administración de sus aplicaciones. Esto contribuye a mejorar su eficacia, pues no tiene que preocuparse del aprovisionamiento de recursos, la planificiacón de la capacidad, el mantenimiento del sofware, los parches, ni ninguna de las demás arduas tareas que conlleva la ejecución de su aplicación.
