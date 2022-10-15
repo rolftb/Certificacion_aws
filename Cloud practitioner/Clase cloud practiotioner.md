@@ -255,3 +255,148 @@ Ejemplo popular de la plataforma SaaS:
 correo electronico, como outlook o gmail. 
 
 ### Comparación en dificultad de los modelos
+
+Complejidad y parcicipación, en el proceso IaaS -> PaaS -> SaaS.
+requiere el más alto nivel de requerimientos tecnicos.
+
+SaaS, es extremadamente ntuitivo y está listo para usar.
+
+## 13: Implementaciones de la computación en la Nube
+
+Los tres tipos son bastante simples de definir:
+
+- Implementacion en la Nube
+- Implementación On-Permises / Local
+- Implementación Hibrida.
+
+### Implementación en la Nube / Pública
+
+- 100% de la infraestructura de TI en la Nube
+  - significa, que toda la infraestrucutra, reciden y se ejecutan en la nube
+- Todas las aplicaciones migradas o creadas en la Nube
+- Elimina el obstaculo de costos y prolongados procesos de adquisición, y gestión de adquisicipon local.
+
+La organización pasa a depender de Internet y de sus proveedores de servicios de computación en la nube, para cumplir sus procesos informaticos y de TI-
+
+todos los recusros de la implementación local, reciden en la nube.
+
+### Implementación Nube Privada / On-Premises / Local
+
+- Utilice la virtualización para implementar recursos en sus centros de datos locales
+- A menudo se parece a una infraestructura de TI tradicional
+- No se puede acceder a los recursos a través de Internet
+- Seguridad: proporciona recursos dedicados
+
+La organización, no comparte ninguno de sus recursos con otra organización.
+
+Es usado principalmente por organizaciones que se toman de forma muy importante la seguridad de sus datos, como la industria bancaraia.
+
+### Implementación Nube Híbrida
+
+- Conecta la tecnología local con recursos basados en
+la Nube.
+- Excelente para empresas establecidas que están en
+proceso de migrar a la Nube.
+  > Porque suelen tener sus procesos locales pero están en un proceso de migración, entonces aún tienen su indumentaria, de respaldo.
+- Datos parcialmente en la Nube y parcialmente en el
+centro de datos local.
+- Puede usarse como solución de respaldo y
+recuperación ante desastres.
+
+Permite a las organizaciónes ampliar y escalar su infraestructura, en la nube mientras mantienen su acceso a los recursos locales, que se encuentran en los servicios del sitio.
+
+Tambien es usado como respaldo en caso de desastres. Copia de trabajo o seguridad, duradere, en la nube.
+
+la implementación hibridad, es muy valioza, para ir definiendo los requerimientos.
+
+### Comparativa entre las distintas Nubes
+
+|Nube Pública |PrivadaNube |Nube Híbrida|
+|-----|--------|--------|
+|Utilice la flexibilidad y la asequibilidad de la Computación en la Nube|Seguro y en las instalaciones|Datos parcialmente en la Nube y parcialmente en el centro de datos local |
+|  |Alata velocidad de recuperación de datos |REspaldo seguro para empergencias |
+||Virtualización de recursos heredados||
+
+Nube pública, para las organizaciones que no poseen muchos recursos implementados, la nube publica, ppermite la flexibilidad y accesibiliad que deseasen.
+
+Nube provada,
+todos los datos seguros y en la instalaciones-
+
+por velocidad y recuperacion, sitios de seguridad, 
+
+utiliza la virtualización de recursos heredados.
+
+#### Nube Hibrida
+
+ respaldo seguro en caso de emergencias, para empresas que están en un proceso de migración,o de requerimientos de seguridad.
+
+copia de seguridad en la nube
+
+## 14: Principios de diseño de la computación en la nube
+
+> Well-Architected Framework / Marco bien Diseñado
+
+
+
+> "Construir la Infraestructura de TI más segura, duradera, eficiente y de alto rendimiento posible"
+
+Crear un sistema de sofware, es como cosntruir un edificio, si los simientos del edificio no son lo suficientemente fuertes, puede socabar la integridad y la fucnión del edificio.
+
+cuando se diseñan soluciones tecologicas, no se deben descuidar los siguientes 6 pilares:
+
+1. Excelencia Operacional
+2. Seguridad
+3. Fiabilidad
+4. Eficiencia de rendimiento
+5. Optimización de constos
+6. Sostenibilidad
+
+si no se cumplen estos pilares, el sofware, dificlmente va a cumplir su utilidad.
+
+Se debe incorporar estos pilares en la infraestructura, para que la solución sea estable y eficiente.
+
+De esta manera, se podrá enfocarse en otros asapectos de diseño, como los requisitos de funcionamiento.
+
+### 1. Operational Excellence / Excelencia Operacional
+
+- Documentar todo
+- Refina los procedimientos operativos
+- Anticipa el fracaso
+- Procesos de actualización
+- Aprenda de los fracasos
+
+Como su organización respalda sus objetivos coimerciales
+
+la capacidad de trabajo para ejecutrar cargas operativas.
+
+Obtener información de sus operaciones.
+
+Mejorar continuamente los procedimientos, para dar soporte y aumentar el valor comercial.
+
+Si ocurre un incidente, todo el equipo deberia reunirse y definir que es lo que salio mal.
+Establecer procedimientos por si vuelve a suceder.
+
+### 2. Security/ Seguridad
+
+
+Describe cómo aprovechar la teconologia en la nube para proteger los datos, los sistemas y los activos, de una manera en que puedan mejorar su postura en seguridad.
+
+- Las mejores prácticas deben automatizarse
+- Los datos siempre deben estar protegidos, en transito y en reposo.
+  - cuando se mueven de un lugar a otro o cuando se almacenan.
+  - Ej: cuando se envia un correo electronico, los datos están en transito.
+- Habilite la trazabilidad
+  - junto con una solida base de identidad
+  - en caso de una violación de seguridad, se puede ver que hizo quien en cada momento.
+  - Esto por medio de que cada usuario tiene una clave de acceso unica, por lo cual se genera una trazabilidad.
+- Administrar el acceso
+  - Definir el acceso de los distintos usuarios.
+- Aplique la seguridad en todos los niveles
+
+### 3. Reliability / Confiavilidad o Fiabilidad 
+
+- Probar la configuración de recuperación ante desastres
+- Incorporar redundancia
+- Tener copias duplicadas de los recursos
+- Escale horizontalmente para aumentar la disponibilidad de la carga de trabajo agregada
+
