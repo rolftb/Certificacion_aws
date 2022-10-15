@@ -21,7 +21,8 @@ examen, validadcion del conocmiento,
 dismponible, en ingles y recientemenete en español
 
 Cumple con 4 dominios la certificacion:
-### Cloud concepts
+
+## Cloud concepts
 
 25% del examen 
 
@@ -33,7 +34,7 @@ Cumple con 4 dominios la certificacion:
 
 describir los principios de diseño de la arquitectura de la nube.
 
- ### Dominio 3: Segurity and compliance / Seguridad y cumplimiento
+ ## Dominio 3: Segurity and compliance / Seguridad y cumplimiento
 
  25% del examen
 
@@ -41,7 +42,7 @@ definirl el modelo de responsabilidad compartida de aws y los conceptos de cumpl
 
 las capaciddes de acceso de aws. ademas identificar los recursos para soporte de seguridad.
 
-### Dominio 3: Technology / Teconlogía 
+## Dominio 3: Technology / Teconlogía 
 
 diminio de la tecnologia 33% del examen.
 
@@ -50,7 +51,7 @@ diminio de la tecnologia 33% del examen.
 - identificar los servicios principales de aws
 - identificar formas de ponerse en contacto con el soporte técnico., en el caso de problemas
 
-### Dominio 4: Billing and pricing /  Facturacion y precios
+## Dominio 4: Billing and pricing /  Facturacion y precios
 
 - compone solo el 16% del examen, pero con preguntas un poco más complicadas.
 - Necesita poder recordar los diferentes modelos de precios de aws.
@@ -58,8 +59,8 @@ diminio de la tecnologia 33% del examen.
 - identificar los recursos disponibles par ael soporte de facturación
 
 Amplio conocmiento de la nube de aws, pero sin tareas, todas las preguntas son de opcion multiple, no se requiere los 6 meses de expetiencia para responder el examen 
-
-### Dominio 6
+# Section 2: Dominio 1: Cloud Concepts / Conceptos de nube
+## Dominio 6
 
 que es la nube es internet, forma moderna de referirse a internet.
 
@@ -106,7 +107,7 @@ permite el acceso instantaneo de almacenamiento y sofware.
 
 permite lo accesible a lo que antes solo era por parte de grander presupuestos.
 
-### 8 La historia de la nube
+## 8 La historia de la nube
 
 la computación MAIN FRAME, todos los usuarios, que enviaban requerimientos a la computadora central, se llaman dump terminal, terminales tontos. todas las computadoras, están conecctadas, a una gran computadora central.
 
@@ -130,7 +131,7 @@ Esto permite la computacion en la nube
 
 > entrega bajo demanda de computacion, Almacenamiento de Bases de Datos, Aplicacion, y otros recursos de TI
 
-### 9 computacion en la nube en la vida diaria
+## 9 computacion en la nube en la vida diaria
 
 ofice 365, computacion en la nube
 
@@ -144,7 +145,7 @@ existe un nivel gratuito en casi todos los servicios.
 
 el cambio y la cantidad de los recuros es instantaneo.
 
-### Clase 10 Finalización: entendimiento de la nube
+## Clase 10 Finalización: entendimiento de la nube
 
 Cloud = internet
 
@@ -160,7 +161,7 @@ ahora, cualquier computador puede funcionar como una terminal tonta.
 
 ahora se conectan a numeroosos servidores, como hipervisores.
 
-### 11 Ventajas de la computacion en la nube.
+## 11 Ventajas de la computacion en la nube.
 
 Ahorro en hardware, archivos disponibles, desde cualquier maquina en internet.
 
@@ -182,7 +183,7 @@ Cuando falla el hardware, se debe pasar por todo el tramite de adquisición, en 
 5. Deje de gastar dinero en ejecutar y mantener centros de datos
 6. Globalizate en minutos
 
-### 12 Modelos de computación en la nube
+## 12 Modelos de computación en la nube
 
 Existen 3 tipos de Modelos de servicios en la nube:
 
@@ -190,7 +191,7 @@ Existen 3 tipos de Modelos de servicios en la nube:
 2. **PaaS:** Plataforma como servicio, *Plataform as a Services*
 3. **IaaS:** Infraestructura como servicio, Infrastructure as a Service.
 
-#### IaaS: Infraestructura como servicio, Infrastructure as a Service
+### IaaS: Infraestructura como servicio, Infrastructure as a Service
 
 La IaaS, contiene los bloques de creación fundamentales para la TI en la nube.
 Por lo general, permite acceder a las caracteristicas de conexion en red, a los equipos (virtuales o en sofware dedicado) y al espacio de almacenamiento de datos. La infraestructura como servicio le ofrece el mayor nivel de flexibilidad y control de la administración en torno a sus recuros sde TI y guarda el mayor parecido con los recusrsos de TI existentes con lo que muchos departamentos de TI y desarrolladores estan familiarizados
@@ -210,10 +211,47 @@ proporciona la mayor flexibilidad para todos los otros sistemas de computación 
 
 se puede modificar y controlar casi todas las partes de la tecnología en la nube para adapatarse a sus necesidades sin tener que comprar y administrar el HardWare real.
 
-#### PaaS: Plataform as a Services
+### PaaS: Plataform as a Services
 
 - implmente y administr aplicaciones sin preocupaciones.
 - Ejecute lenguajes de programación para alojar aplicaciones.
 - Menos flexibilidad que **IaaS**, ya que los paquetes están precosntruidos.
 
 PaaS eliminan la necesidad de compañias de administrar la infraestructura subyacente (Normalmente hardware y sistemas operativos) y permiten centrarse en la implmentación y administración de sus aplicaciones. Esto contribuye a mejorar su eficacia, pues no tiene que preocuparse del aprovisionamiento de recursos, la planificiacón de la capacidad, el mantenimiento del sofware, los parches, ni ninguna de las demás arduas tareas que conlleva la ejecución de su aplicación.
+
+Los servicios web pueden ser:
+
+- servidores web
+- bases de datos
+- sistemas operativos
+- entornos donde se puede codear, ejecutar lenguaje de programación, un lenguaje espécifico. Con el fin de alojar apliaciones.
+
+Ejemplos
+
+- alojamiento web, en Microsoft o azure
+- google app in game
+- Heroku
+  
+Se puede concentrar en implementar las aplicaciones, en vez del lugar operativo donde se realizará la implementación
+
+Diferencia principal con IaaS, es que hay menos flexibilidad, una vez que los paquetes están pre construidos.
+
+Pero, se requiere una menos implmentación y mantenimineto de la infraestructura. lo que permite, más teimpo y recursos en el proyecto en cuestión que en la infraestructura.
+
+### SaaS: Software como servicio
+
+- "Productos Terminados" gestionados por el proveedor de servicios
+  - seobteiene el paquete completo del servicio, con una interfaz para el usuario.
+- Fácil de usar como usuario final
+  - Está listo par usar, idependiente de los antecedenetes tecnicos, no necesita, manteminiento ni ningun requerimiento tecnico.
+  - me preocupo en cómo utilizar el servicio, para satisfacer una necesidad.
+- Menos flexibilidad
+
+SaaS, le proporciona un producto completo que el proveedor del seervicio ejecuta y administra. En la mayoria de los casos . quienes hablam de sofware como servicio en realidad se refieren a alplicaciones de usuario final. Con una oferta de SaaS, no tiene que pensar en cómo se mantiene el servicio ni en cómo se administra la infraestructura subyacente. Solo dene preocuparse cómo utilizar ese sistema de software concreto. Un ejemplo común de una aplicación SaaS es un programa de correo electronico basado en la Web que le permite enviar y recibir mensajes sin tener qeu administrar la incorporación de caracteristicas ni mantener los ervidores y los sistemas operativos en lo que se ejecuta el programade correo electronico.
+
+
+Ejemplo popular de la plataforma SaaS:
+
+correo electronico, como outlook o gmail. 
+
+### Comparación en dificultad de los modelos
