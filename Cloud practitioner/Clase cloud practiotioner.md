@@ -498,7 +498,6 @@ de CPU o incluso cambiar todo el servidor por uno de más capacidad.”
 
 Se agrega poder de computo al equipo, generalmente a un servidor, con poder de computo se refiere a hardware
 
-
 #### Escalabilidad Horizontal
 
 > “El escalamiento Horizontal consiste en agregar nodos adicionales para adaptarse a la carga de trabajo.
@@ -527,11 +526,8 @@ automáticamente con el fin de proporcionar la cantidad justa de activos para ca
 
 AWS, provee este servicio de forma nativa, porque es una parte inerente del servicio.
 
-
 Con la Elasticidad en la nube, ya no importa la carga variable de trabajo que se requiere.
 Ya que los recursos de computo se escalarian automaticamente. Para satisfaser la carga de trabajo, así teniendo una capacidad de computo eficiente bajo demanda y mucho menos costoso.
-
-
 
 ## 17: Agilidad del Cómputo en la Nube
 
@@ -552,25 +548,229 @@ hacemos negocios."
 
 ## 18: Tolerancia a fallos y recuperación de desastres
 
-Te ayudará a preveer mejores soluciones tecnicas, al pasar a dar soluciones en la nube. 
+Te ayudará a preveer mejores soluciones tecnicas, al pasar a dar soluciones en la nube.
+
+Ejemplo: Concepto de alta disponivilidad.
+
+|front end | back end|
+|----------|---------|
+|aplicacion de cualquier tipo, como web          |esta la logica del sistema, como sus servicios y bases de datos.           |
+
+Si hay una falla en el sistema, el servicio no estaá disponible hasta que se arrelge el ploblema, de esta caida.
+
+Tolerancia a falla, esta es la habilidad que tiene un sistema para continuar operando cuando sucede una falla en alguno de sus componentes.
+
+La tolerancia a las fallas, es una tactica para teneer una alta disponibilidad.
 
 ### La tolerancia a los fallos
 
 > “**La tolerancia a los fallos** describe un nivel superior de disponibilidad caracterizado por un tiempo de funcionamiento de 5 nueves (99,999%) o mejor. Los sistemas con tolerancia a los fallos son capaces de ofrecer estos niveles de disponibilidad porque pueden "tolerar" o soportar tanto los "fallos" como las fallas del hardware y el software”
 
 - Hardware
+  - se pueden utilizar servidores, maquinas virtuales que sean identicas entre sí, y hacerlas redundantes
 - Software
+  - se puedee hacer uso de la replicacion de datos, en el caso de una caida de la base de datos el sistema inmediatamente usaria otra.
 - Infraestructura base del centro de datos
+  - existen nociones de tolerancia al fallo. Ejemplo multimples fuentes de energia electrica, para evitar basarse en una sola.
+  
+#### Disaster recovery
 
-
-#### Disaster recovery 
-
-“La recuperación de desastres en la Nube (DR en la nube o Cloud DR) es una estrategia de respaldo y
-restauración que consiste en almacenar y mantener copias de registros electrónicos en un entorno de
-computación en la nube como medida de seguridad. El objetivo del DR en la nube es proporcionar a una
-organización una forma de recuperar datos y/o implementar conmutación por error en el caso de una
-catástrofe natural o provocada por el hombre”
+“La recuperación de desastres en la Nube (DR en la nube o Cloud DR) es una estrategia de respaldo y restauración que consiste en almacenar y mantener copias de registros electrónicos en un entorno de computación en la nube como medida de seguridad. El objetivo del DR en la nube es proporcionar a una organización una forma de recuperar datos y/o implementar conmutación por error en el caso de una catástrofe natural o provocada por el hombre”
 
 - Plan para recuperar la información y sistemas después de un evento catastrófico
-- Restauración de operaciones normales.
+  - Ejemplo un desasatre natural.
+- Por medio de un sistema de recuperancion de desastres se lograría la *Restauración de operaciones normales de un sistema*
 
+Tactica común, es replicar los datos en un centro de datos diferente. Ante una emergencia solo se teiene que redirigir el trafico y comunicaciones a este centro de datos cecundario.
+
+## 19. Principios de las economías de escala
+
+ciencias economicas
+
+El concepto se refiere a hacer las cosas más eficientemente.
+
+>“Cuando hablamos de economías de escala, nos referimos primeramente a la del proveedor, a que debido al gran
+número de clientes que espera, puede permitirse ajustar bastante los precios en los servicios que ofrece"
+
+- Habilidad de hacer las cosas más eficientemente
+- Cuanto mas compras algo, menos cuesta
+- Beneficia a los clientes finales
+
+Este plano se puede referir al Cloud Computing, ya que AWS no solo ofrece un solo rack de servidores.
+
+> AWS, ofrece la infraestructura de usar miles de racks de servidores.
+
+Por lo cual, se puede ofrecer un poder de computo a un valor muchisimo menos al que se pudiese tener si se hiciera por cuenta propia.
+
+Es la plataforma en la nube, más amplia y confiable.
+
+## 20. Gastos de capital CapEX vs. Gastos operativos OpEX
+
+Estos aparescane en alguna pregunta de cloud.
+
+### Gastos de capital  Capital Expenditure (CapEx)
+
+> “CapEx se define como los gastos comerciales incurridos para crear beneficios a largo plazo en el futuro, como la compra de activos fijos como un edificio o equipo. Algunos ejemplos de elementos de TI que entran en esta categoría serían sistemas y servidores completos, impresoras y escáneres, o acondicionadores y generadores de aire. Usted compra estos artículos una vez y benefician a su negocio durante muchos, muchos años. El mantenimiento de dichos artículos también se considera CapEx, ya que extiende su vida útil y utilidad”
+
+- Capital Expenditure (CapEx)
+- Inversión de capital para el correcto desarrollo de las actividades
+- Gastos para obtener un beneficio en el futuro
+- Requiere calcular la duración
+- Difícil para nuevas empresas y/o StartUps
+
+Algunos Gastos de caitales, en Ti están relacionados al Hardware de los equipos asociados.
+
+Este tipo de inversion, son muy dolorosas par empresas y startups.
+
+Es la compra de servidores de la empresas.
+
+aún hay empresas que compran estos equipos.
+
+### Operational Expenditure (OpEx)
+
+>"OpEx son sus costos operativos, los gastos para ejecutar el negocio diario, como servicios y artículos consumibles que se consumen y se pagan de acuerdo con el uso. Esto incluye cartuchos de impresora y papel, electricidad e incluso servicios anuales como alojamiento de sitios web o registros de dominios. Estas cosas son necesarias para el éxito de su negocio, pero no se consideran inversiones importantes a largo plazo como los artículos de CapEx”
+
+- Operational Expenditure (OpEx)
+- Costos del dia a dia
+- Modelo de pago por uso
+- Ideal para cualquier tipo de empresa
+
+Son los gastos asociados al las operaciones del día a día de una empresa.
+
+Suelen ser asociados un **modelo de pago por uso**, como servicios
+
+La clase de gastos OpEx, son llamativos pár acualquier empresa debido a los bajos gastos iniciales.
+
+La nube es una clase de Gasto OpEx.
+
+al implementar la nube pasa de tener un alto nivel de Gasto CapEx y movilizarlo a un Gasto OpEx
+
+## 21. Modelo de facturación basado en consumo
+
+>“En Cloud Computing, el pago por uso es la forma habitual de pago por usar servicios en la nube. El usuario paga sólo por el consumo real de los recursos en la nube que tengas contratados, por ejemplo uso de CPU, Mb de transferencia, almacenamiento en disco, etc "
+
+Esto implica lo siguiente:
+
+- Pago por uso
+  > Este modelo de pago por uso, se asemeja a los ervicios unitarios, como electricidad, agua y gas.
+- Sin gastos por adelantado
+  > El modelo de facturacion, es más agil  y mucho más comodo.
+- Dejar de usar en cualquier momento.
+  > No hay un compromiso permanente, se modificar los planes de consumo en cualquier momento.
+
+## 22. Breve historia de AWS
+
+Venta minorista en linea, Amazon.com es la mejor, en este proceso.
+
+1994, libreria.
+
+### Una breve historia de Amazon Web Services (AWS)
+
+> Informática en la nube con AWS Amazon Web Services (AWS) es la plataforma en la nube más adoptada y completa en el mundo, que ofrece más de 175 servicios integrales de centros de datos a nivel global. Millones de clientes, incluyendo las empresas emergentes que crecen más rápido, las compañías más grandes y los organismos gubernamentales líderes, están utilizando AWS para reducir los costos, aumentar su agilidad e innovar de forma más rápida.
+
+
+<center>La plataforma líder en la Nube</center>
+
+### Amazon.com Web Service
+
+- Amazon.com Web Service fue lanzado en 2002
+- Amazon planeaba lanzar Merchant.com, una plataforma de comercio electrónico para tiendas de terceros.
+- La plataforma allanó el camino para que Amazon evolucionara de "tienda en línea" a "empresa de servicios".
+
+> Fue de las primeras compañias en proveer estos servicios.
+
+- Una década y media
+- Creciendo exponencialmente
+- Más de 1 millón de clientes activos
+- AWS ganó más de 10,000 millones de dólares en el 2019
+- Cuadrante Gartner’s por noveno año consecutivo
+
+## 23: Qúe es AWS
+¿Qué es Amazon Web Services (AWS)?
+
+Cloud Computing, soluciona un gran problema en la industria de la Tecnologia.
+
+- Proporciona servicios de infraestructura de TI a organizaciones como servicios web.
+  - para ayudarlos a escalar y crecer de forma eficiente.
+
+- Se accede a los recursos a través de Internet.
+  - Proporciona, el hardwer, como recursos que se accede por medio del internet.
+- Utiliza el modelo de "pago por uso" para ayudar a las organizaciones a ahorrar dinero, tiempo y recursos humanos.
+
+ofrece 26 grupos de servicios que van desde la informatica al almacenamiento y desarrollo de juegos.
+
+### Qué es lo que ofrece
+> Proveedor de servicios de Computación en la Nube que ofrece flexibilidad, escalabilidad, confiabilidad y asequibilidad
+
+Accesibilida que era imposible con la infraestructura TI local.
+
+ahora los ingenieros solo se deben preocupar de su producto y funciones en lugar de preocuperse de las ideas de la infraestructura TI para menejar su escalamiento.
+
+## 24. Infraestructura global de AWS
+
+> Parte importante del examen de Cloud practitioner
+
+AWS, quiere que conoscas muy bien la infraestructura global de que se compone AWS.
+
+los servicios Web de Aws son globales, muchos usarios confian en sus servicios que proveen.
+
+para ayudar a sus negocios para crecer.
+
+### Global Infraestructure Components.
+
+Esta diseñada y construida para brindar la más flexible, Confiable, Escalable y Segura Cloud Computing Enviroment, con una alta calidad de rendimiento global disponible ahora.
+
+
+Esta se compone de
+
+1. Regions
+2. Avallability zones (AZ).
+3. Local Zones
+4. Points of presences
+5. Ground Stations
+6. Network
+
+Por otro lado está el Custom Hardware
+y el Benefits.
+
+
+#### Avallability zones (AZ)
+
+- Centros de datos, disponibles por todo el mundo, llamados zonas de disponibilidad.
+- pueden ser varios centros de datos, miles de servidores.
+- Poseen su propia infraestructura de energia.
+- Estan fisicamente separadas, por una distancia significativa.
+- Todas las AZ estan interconectadas con redes de baja latencia y gran ancho de banda. Fibra totalmente dedicada
+- Lo cual implica una red de baja frecuencia, entre las AZ.
+
+las AZ, permiten generar aplicaciónes de alta disponibilidad.
+
+si una aplicación está separa por zonas de disponibilidad, la empresa está mejor protegida ante catastrofes sectorizadas.
+> Una zona de disponibilidad (AZ) es uno o más centros de datos discretos con energía, redes y conectividad redundantes en una región de AWS. Los AZ brindan a los clientes la capacidad de operar aplicaciones y bases de datos de producción que tienen mayor disponibilidad, tolerancia a fallas y escalabilidad de lo que sería posible desde un solo centro de datos. Todas las zonas de disponibilidad en una región de AWS están interconectadas con redes de baja latencia y gran ancho de banda, a través de fibra metropolitana dedicada totalmente redundante que proporciona redes de alto rendimiento y baja latencia entre las zonas de disponibilidad. Todo el tráfico entre AZ está encriptado. El rendimiento de la red es suficiente para lograr la replicación síncrona entre zonas de disponibilidad. Las zonas de disponibilidad facilitan la creación de particiones de aplicaciones para una alta disponibilidad. Si una aplicación se divide en AZ, las empresas están mejor aisladas y protegidas de problemas como cortes de energía, rayos, tornados, terremotos y más. Las zonas de disponibilidad están físicamente separadas por una distancia significativa, muchos kilómetros, de cualquier otra zona de disponibilidad, aunque todas se encuentran dentro de los 100 km (60 millas) entre sí.
+#### Regiones
+
+Posee varias regiones geograficas, a diferencia de otros proveedores, que definen una región como un unico centro de datos. aws, las Regiones constan de varias zonas de disponibilidad (AZ)
+
+Cada Región de AWS, tiene al menos 2 zonas de disponibilidad.
+
+la mayoria tiene 3 y varias tienene hasta 6.
+
+las Regiones están conectadas a una red intercontinental de hasta 100 Gbs per Secodns
+
+Generalmente, la Region es designada por la proximidad.
+
+Los acuerdos de CLA, varian según la region, tambien pueden tnener requisitos de cumpliento, que tengan que cumplir, como alojar sus recursos en regiones especificas o en varias regioines. esto ayuda a crear una alta disponibilidad. preparandose para eventos. 
+
+>AWS tiene el concepto de Región, que es una ubicación física en todo el mundo donde agrupamos los centros de datos. Llamamos a cada grupo de centros de datos lógicos una zona de disponibilidad. Cada región de AWS consta de zonas de disponibilidad múltiples, aisladas y separadas físicamente dentro de un área geográfica. A diferencia de otros proveedores de la nube, que a menudo definen una región como un único centro de datos, el diseño de varias zonas de disponibilidad de cada región de AWS ofrece ventajas para los clientes. Cada AZ tiene alimentación, refrigeración y seguridad física independientes y está conectado a través de redes redundantes de latencia ultrabaja. Los clientes de AWS centrados en la alta disponibilidad pueden diseñar sus aplicaciones para que se ejecuten en múltiples AZ para lograr una tolerancia a fallas aún mayor. Las regiones de infraestructura de AWS cumplen con los niveles más altos de seguridad, cumplimiento y protección de datos.
+>
+>AWS ofrece una huella global más extensa que cualquier otro proveedor de la nube, y para respaldar su huella global y garantizar que los clientes reciban servicios en todo el mundo, AWS abre nuevas regiones rápidamente. AWS mantiene varias regiones geográficas, incluidas las regiones de América del Norte, América del Sur, Europa, China, Asia Pacífico, Sudáfrica y Oriente Medio.
+
+#### Local Zones /Zonas Locales
+
+Relativamente nuevo.
+
+nuevo tipo de infraestructura, 
+
+> Las zonas locales de AWS colocan la computación, el almacenamiento, la base de datos y otros servicios selectos de AWS más cerca de los usuarios finales. Con AWS Local Zones, puede ejecutar fácilmente aplicaciones muy exigentes que requieren latencias de milisegundos de un solo dígito para sus usuarios finales, como creación de contenido multimedia y de entretenimiento, juegos en tiempo real, simulaciones de depósitos, automatización de diseño electrónico y aprendizaje automático.
+>
+> Cada ubicación de la zona local de AWS es una extensión de una región de AWS en la que puede ejecutar sus aplicaciones sensibles a la latencia mediante servicios de AWS como Amazon Elastic Compute Cloud, Amazon Virtual Private Cloud, Amazon Elastic Block Store, Amazon File Storage y Amazon Elastic Load Balancing en Proximidad geográfica a los usuarios finales. Las zonas locales de AWS proporcionan una conexión segura de gran ancho de banda entre las cargas de trabajo locales y las que se ejecutan en la región de AWS, lo que le permite conectarse sin problemas a la gama completa de servicios de la región a través de las mismas API y conjuntos de herramientas.
