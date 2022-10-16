@@ -14,9 +14,9 @@ beneficios de obtener la certificacion.
 - confianza
   - aumenta tu nivel de confianza, para utilizarm trabajar, solucionar un problema, te sientes capas de hacer cosas, asumir un nuevo desafio.
 
-## Certificacion del examen de aws Certified cloud practitioner.
+## Certificacion del examen de aws Certified cloud practitioner
 
-examen, validadcion del conocmiento, 
+examen, validadcion del conocmiento,
 
 dismponible, en ingles y recientemenete en español
 
@@ -24,7 +24,7 @@ Cumple con 4 dominios la certificacion:
 
 ## Cloud concepts
 
-25% del examen 
+25% del examen
 
  dominio de conceptos de nube.
 
@@ -34,7 +34,7 @@ Cumple con 4 dominios la certificacion:
 
 describir los principios de diseño de la arquitectura de la nube.
 
- ## Dominio 3: Segurity and compliance / Seguridad y cumplimiento
+## Dominio 3: Segurity and compliance / Seguridad y cumplimiento
 
  25% del examen
 
@@ -42,7 +42,7 @@ definirl el modelo de responsabilidad compartida de aws y los conceptos de cumpl
 
 las capaciddes de acceso de aws. ademas identificar los recursos para soporte de seguridad.
 
-## Dominio 3: Technology / Teconlogía 
+## Dominio 3: Technology / Teconlogía
 
 diminio de la tecnologia 33% del examen.
 
@@ -58,8 +58,10 @@ diminio de la tecnologia 33% del examen.
 - Reconocimiento de varias estructuras de cuentas facturación y precios de aws.
 - identificar los recursos disponibles par ael soporte de facturación
 
-Amplio conocmiento de la nube de aws, pero sin tareas, todas las preguntas son de opcion multiple, no se requiere los 6 meses de expetiencia para responder el examen 
+Amplio conocmiento de la nube de aws, pero sin tareas, todas las preguntas son de opcion multiple, no se requiere los 6 meses de expetiencia para responder el examen
+
 # Section 2: Dominio 1: Cloud Concepts / Conceptos de nube
+
 ## Dominio 6
 
 que es la nube es internet, forma moderna de referirse a internet.
@@ -115,7 +117,7 @@ es un tipo de terminal. a un computador, de salida, que se conecta a una termina
 
 hoy en dia hay unas computadora, independiente, en lugar de comprar una para cada usuario, habia una terminal centra, y todos los teclado y monitores estaban a disposición de la computadora.
 
-Virtual Machine: 
+Virtual Machine:
   > Multiples sistemas Operativos completos que "viven" en una sola pieza de hardware
 
 multiples sistemas operativos ejecutandose de forma diferente, para hacer cosas diferentes.
@@ -161,7 +163,7 @@ ahora, cualquier computador puede funcionar como una terminal tonta.
 
 ahora se conectan a numeroosos servidores, como hipervisores.
 
-## 11 Ventajas de la computacion en la nube.
+## 11 Ventajas de la computacion en la nube
 
 Ahorro en hardware, archivos disponibles, desde cualquier maquina en internet.
 
@@ -187,7 +189,7 @@ Cuando falla el hardware, se debe pasar por todo el tramite de adquisición, en 
 
 Existen 3 tipos de Modelos de servicios en la nube:
 
-1. **SaaS:** Sofware como servicio, Sofware as a Services 
+1. **SaaS:** Sofware como servicio, Sofware as a Services
 2. **PaaS:** Plataforma como servicio, *Plataform as a Services*
 3. **IaaS:** Infraestructura como servicio, Infrastructure as a Service.
 
@@ -249,10 +251,9 @@ Pero, se requiere una menos implmentación y mantenimineto de la infraestructura
 
 SaaS, le proporciona un producto completo que el proveedor del seervicio ejecuta y administra. En la mayoria de los casos . quienes hablam de sofware como servicio en realidad se refieren a alplicaciones de usuario final. Con una oferta de SaaS, no tiene que pensar en cómo se mantiene el servicio ni en cómo se administra la infraestructura subyacente. Solo dene preocuparse cómo utilizar ese sistema de software concreto. Un ejemplo común de una aplicación SaaS es un programa de correo electronico basado en la Web que le permite enviar y recibir mensajes sin tener qeu administrar la incorporación de caracteristicas ni mantener los ervidores y los sistemas operativos en lo que se ejecuta el programade correo electronico.
 
-
 Ejemplo popular de la plataforma SaaS:
 
-correo electronico, como outlook o gmail. 
+correo electronico, como outlook o gmail.
 
 ### Comparación en dificultad de los modelos
 
@@ -322,7 +323,7 @@ Nube pública, para las organizaciones que no poseen muchos recursos implementad
 Nube provada,
 todos los datos seguros y en la instalaciones-
 
-por velocidad y recuperacion, sitios de seguridad, 
+por velocidad y recuperacion, sitios de seguridad,
 
 utiliza la virtualización de recursos heredados.
 
@@ -335,8 +336,6 @@ copia de seguridad en la nube
 ## 14: Principios de diseño de la computación en la nube
 
 > Well-Architected Framework / Marco bien Diseñado
-
-
 
 > "Construir la Infraestructura de TI más segura, duradera, eficiente y de alto rendimiento posible"
 
@@ -378,7 +377,6 @@ Establecer procedimientos por si vuelve a suceder.
 
 ### 2. Security/ Seguridad
 
-
 Describe cómo aprovechar la teconologia en la nube para proteger los datos, los sistemas y los activos, de una manera en que puedan mejorar su postura en seguridad.
 
 - Las mejores prácticas deben automatizarse
@@ -393,10 +391,186 @@ Describe cómo aprovechar la teconologia en la nube para proteger los datos, los
   - Definir el acceso de los distintos usuarios.
 - Aplique la seguridad en todos los niveles
 
-### 3. Reliability / Confiavilidad o Fiabilidad 
+### 3. Reliability / Confiavilidad o Fiabilidad
+
+Se puede definir como la capacidad de un sistema para recuperarse de la infraestructura, o la interupciones del servicio. Adquirir constantemente recursos informaticos, para satisfaser la demanda y mitigar las interrupciones. Como configuraciones incorrectas o problemas de retrasmisores.
 
 - Probar la configuración de recuperación ante desastres
-- Incorporar redundancia
-- Tener copias duplicadas de los recursos
+- Incorporar redundancia, en su infraestructura
+  - la redundancia se refiere, al concepto de tener copias duplicadas, de los recurosos.
+- Tener copias duplicadas de los recursos.
+  - De modo que cuando deja de funcionar, el otro comienza a funcionar y proporciona soporte.
 - Escale horizontalmente para aumentar la disponibilidad de la carga de trabajo agregada
+
+### 4. Performance Efficiency / Eficiencia de Rendimiento
+
+incluye, la capacidad de utilizar los recuros iinformaticos de forma eficiente, para cummlir con los requisistos del sistema, y cumolir con la eficiencia a medida que la demanda cambia y las tecnologicas evilucionana. deberia permitir esa experimentación.
+
+- Democratice las tecnologías avanzadas
+- Incorpórese al mercado global en minutos.
+  - Ante cambios
+- Utilice arquitecturas sin servidor
+- Experimente con más frecuencia
+- Considere la afinidad mecánica
+
+### 5. Optimización de Costos
+
+- Usa sólo lo que necesites
+- Reserva recursos con anticipación
+- Continuar supervisando la optimización
+- Adopción de un modelo de consumo
+
+Este la capacidad de evitar y elimiar costos, o recurtoss suboptivos. Use solo lo que necesita, apage los servidores o recuros sque no estén usando. Reserve recusros con anticiapacion cuando se sabne que se requiioere una capacidad de computo, ya que se hacen promociones, por pago spor anticipádo.
+
+Mantener el monitore, par optiizar.
+
+Identificar los recusos, que hacen uncargoi en la factura
+
+### 6. Sostenibilidad
+
+- Analice su impacto
+- Establezca objetivos de sostenibilidad
+- Maximice el uso
+- Anticípese y adopte nuevas ofertas de hardware y software más eficaces
+- Uso de servicios administrados
+
+Disiplina que aborda el impacto medio ambiental. Economico y social, a largo plazo de las actividades empresariales.
+
+Ej: repercusiones neg en el medio ambiente, co2.
+
+Cuando se crean cargas de trabajo en la nube la sostenibilidad consiste en:
+en comprender, las repercusiones de los servicios que se usan. Cuantificar el impacto, de todo elciclo de vida de la carga de trabajo, aplicar u rediseño en caso, como practicas recomendadas para reducir estas repercusiones.
+
+Este pilar se centra en los impactos medioambientales, sobre todo enla eficiencia  y en el consumo energetico. Ya que son los impusores, importantes, que ayudan a los Arquitectos a promover la adposión de medidas directas, destinadas a reducir el uso de los recursos.
+
+### Recuerde
+
+Entonces cuando se optimizan y se toman en cuenta los 6 pilares, tendrán una infraestructura de TI estable y de alto rendimiento. que permitirá a sus organizaciones ahorrar dinero, tiempo y recursos.
+
+## 15: Alta Disponibilidad
+
+Bentaja pricipal de AWS
+
+### Definición General
+
+> “La Disponibilidad, es la capacidad que tiene un sistema para que esté disponible en cualquier
+momento que sea necesario”
+
+- Atributo de calidad de un sistema
+  - En sofware, un atributo de calidad es un atributo medible de un sistema. Que idica que tanto puede satisfacer los requerimientos generales establecidos
+- Generalmente se mi de porcentaje.
+- Ejemplo: 99% al año = 3,65 días sin disponibilidad
+  - Ejemplo: 99% al año, signifique en el el año se contempla que 3,65 días el sistema no estará disponible.
+  - Entre mayor sea el procentaje mayor mente estará el sistema dispoinible.
+
+### Definición La Alta Disponibilidad
+
+> "La Alta Disponibilidad, es un protocolo de diseño del sistema y su implementación asociada que
+asegura un cierto grado absoluto de continuidad operacional durante un período de medición dado."
+
+- Para poseer una alta Disponibiliadad, se debe contemplar un Conjunto de tecnologías y consideraciones
+- Uno de los objetivos, Buscar eliminar los puntos únicos de fallos.
+  - Nunca es buena idea, es un sinonimo de sistemas fragiles.
+- La Nube permite implementar soluciones con este atributo. De manera facil.
+
+## 16: Escalabilidad y Elasticidad del cómputo en la Nube
+
+**dos beneficios fuertes de la tecnologia en la nube.**
+
+### Escalabilidad
+
+> “La Escalabilidad, es la capacidad de un sistema de crecer y adaptarse a las necesidades de los usuarios.
+Habitualmente, la escalabilidad se vincula al crecimiento de los recursos de un sistema ante un
+incremento en la demanda de los mismos, evitando la saturación."
+
+Hay dos tipos de Escalabilidad:
+
+- Escalabilidad Vertical
+  - Scale of
+- Escalabilidad Horizontal
+  - Scale out
+
+#### Escalabilidad Vertical
+
+> “El escalamiento Vertical consiste en agregar recursos a un sólo nodo, aumentando su capacidad, esto
+puede ser aumentando la memoria RAM del servidor, agregar discos duros de mayor capacidad, cambiar
+de CPU o incluso cambiar todo el servidor por uno de más capacidad.”
+
+Se agrega poder de computo al equipo, generalmente a un servidor, con poder de computo se refiere a hardware
+
+
+#### Escalabilidad Horizontal
+
+> “El escalamiento Horizontal consiste en agregar nodos adicionales para adaptarse a la carga de trabajo.
+Si la aplicación o el sistema están llegando a su punto crítico, entonces se agregan nodos adicionales y se
+divide la carga entre los distintos nodos.”
+
+Se define como agregar recursos, como agregar un servidor extra, agregar una nueva maquina virtual, al sistema.
+Para poder satisfaser la demanda de computo requerida
+
+#### Problemas del Escalamiento Estatico
+
+Se puede llegar a desperdiciar el computo disponible.
+
+Se define un valor fijo de capacidad, por medio del hardware.
+
+la complicacion es cuando la carga de trabajo varia respecto al hardware disponible.
+ya que alguna veces se estaría trabajando con una carga ifnerior a la comprada, o pero a+ún puede suceder quiebres de la operación ante aumentos en la carga de trabajo superiores a los recursos de computo.
+
+### Elasticidad
+
+> “La Elasticidad hace referencia a la capacidad de los servicios en la Nube de entregar o eliminar recursos
+automáticamente con el fin de proporcionar la cantidad justa de activos para cada proyecto.”
+
+- Escalabilidad fácil y automática basada en métricas, que se pueden definir previamente.
+- Uno de los principales beneficios del cómputo en la Nube
+
+AWS, provee este servicio de forma nativa, porque es una parte inerente del servicio.
+
+
+Con la Elasticidad en la nube, ya no importa la carga variable de trabajo que se requiere.
+Ya que los recursos de computo se escalarian automaticamente. Para satisfaser la carga de trabajo, así teniendo una capacidad de computo eficiente bajo demanda y mucho menos costoso.
+
+
+
+## 17: Agilidad del Cómputo en la Nube
+
+impacta positiva mente, nos habilita a competir de mejor manera independiente de la situación.
+
+Permite acceder a servicios de forma economica.
+
+La empresa de bajo capital, pueden acceder a servicios de la nube escalarmente.
+
+Gracias a la agilidad del computo en la nube se nos podemos adaptar a los cambios del mercado. Es y será un diferenciador en cualquier tipo de negocios.
+
+> "El cómputo en la nube, es una tecnología que ha impactado positivamente la manera en la que
+hacemos negocios."
+
+- La Nube nos permite agilizar nuestros procesos de negocio
+- Adaptación a los cambios del mercado
+- Diferenciador en cualquier tipo de negocio
+
+## 18: Tolerancia a fallos y recuperación de desastres
+
+Te ayudará a preveer mejores soluciones tecnicas, al pasar a dar soluciones en la nube. 
+
+### La tolerancia a los fallos
+
+> “**La tolerancia a los fallos** describe un nivel superior de disponibilidad caracterizado por un tiempo de funcionamiento de 5 nueves (99,999%) o mejor. Los sistemas con tolerancia a los fallos son capaces de ofrecer estos niveles de disponibilidad porque pueden "tolerar" o soportar tanto los "fallos" como las fallas del hardware y el software”
+
+- Hardware
+- Software
+- Infraestructura base del centro de datos
+
+
+#### Disaster recovery 
+
+“La recuperación de desastres en la Nube (DR en la nube o Cloud DR) es una estrategia de respaldo y
+restauración que consiste en almacenar y mantener copias de registros electrónicos en un entorno de
+computación en la nube como medida de seguridad. El objetivo del DR en la nube es proporcionar a una
+organización una forma de recuperar datos y/o implementar conmutación por error en el caso de una
+catástrofe natural o provocada por el hombre”
+
+- Plan para recuperar la información y sistemas después de un evento catastrófico
+- Restauración de operaciones normales.
 
