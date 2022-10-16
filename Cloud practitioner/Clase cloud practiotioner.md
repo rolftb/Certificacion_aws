@@ -774,3 +774,25 @@ nuevo tipo de infraestructura,
 > Las zonas locales de AWS colocan la computación, el almacenamiento, la base de datos y otros servicios selectos de AWS más cerca de los usuarios finales. Con AWS Local Zones, puede ejecutar fácilmente aplicaciones muy exigentes que requieren latencias de milisegundos de un solo dígito para sus usuarios finales, como creación de contenido multimedia y de entretenimiento, juegos en tiempo real, simulaciones de depósitos, automatización de diseño electrónico y aprendizaje automático.
 >
 > Cada ubicación de la zona local de AWS es una extensión de una región de AWS en la que puede ejecutar sus aplicaciones sensibles a la latencia mediante servicios de AWS como Amazon Elastic Compute Cloud, Amazon Virtual Private Cloud, Amazon Elastic Block Store, Amazon File Storage y Amazon Elastic Load Balancing en Proximidad geográfica a los usuarios finales. Las zonas locales de AWS proporcionan una conexión segura de gran ancho de banda entre las cargas de trabajo locales y las que se ejecutan en la región de AWS, lo que le permite conectarse sin problemas a la gama completa de servicios de la región a través de las mismas API y conjuntos de herramientas.
+
+Cada Local Zone es una extensión de una Región, que permite disminuir la latencia.
+
+#### Points of Presence PoP
+
+> puntos de precensia
+
+se utilizan tanto para aws cloud from, para entregar contenido a los usuarios finales a altas velocidades, como para Lambda each, par ejecutar funciones de Lambda, con una latencia la más baja posible.
+
+consta de ubicaciones perimetrales y servidores de cache permimetral, regional.
+
+sirve pare entregar de manera segura, contenido multimedia, de amazon from a clientes de todo el mundo, con una baja latencia y altas velocidades de trasferencia.
+
+#### Ground Statios
+
+Servicio Administrado, que controla las trasmisiones por satelite. Procesar datos y escalar sus operaciones, sin tener que preocuparse de administrar sus propia infraestructura de estaciones terrestres.
+
+los satelites, se utilizan para varios ussos incluyendo, como la prediccion de tiempo, imagenes de superficie, comunicacióoi  y trasmisiones de videos.
+
+Las estaciones terrestres, constituyen el Nucleo de las redes mundiales de satelites.
+
+Con  **Ground Statios** se tiene conexion a todos los servicios glabales de AWS. incluida a una red de fibra global de baja latencia.
