@@ -716,7 +716,7 @@ los servicios Web de Aws son globales, muchos usarios confian en sus servicios q
 
 para ayudar a sus negocios para crecer.
 
-### Global Infraestructure Components.
+### Global Infraestructure Components
 
 Esta diseñada y construida para brindar la más flexible, Confiable, Escalable y Segura Cloud Computing Enviroment, con una alta calidad de rendimiento global disponible ahora.
 
@@ -729,6 +729,7 @@ Esta se compone de
 4. Points of presences
 5. Ground Stations
 6. Network
+   > redes que conectan toda la infraestructura de aws
 
 Por otro lado está el Custom Hardware
 y el Benefits.
@@ -795,4 +796,40 @@ los satelites, se utilizan para varios ussos incluyendo, como la prediccion de t
 
 Las estaciones terrestres, constituyen el Nucleo de las redes mundiales de satelites.
 
-Con  **Ground Statios** se tiene conexion a todos los servicios glabales de AWS. incluida a una red de fibra global de baja latencia.
+Con  **Ground Statios** se tiene conexion a todos los servicios glabales e infraestructura de AWS. incluida a una red de fibra global de baja latencia.
+
+Este servicio esta orientado a grandes empresas.
+
+como grandes observatorios, o de trabajo con el clima
+
+
+### Network
+
+AWS ofrece conectividad de red, altamente confiable.
+Las redes, las redes se caracterizan por poseer una baja latencia y un alto rendimiento.
+
+Esto lo logra.
+con una red totalmente redundante de 100 Gb por segundo. que rodea al mundo a travez de cables trans oceanicos.
+
+los links principales poseen hasta 100 Gbs.
+
+
+aws, esta construyendo constantemente nuevas redes. 
+
+todos los datos que salen de un servidor, se cifran antes, de salir de la capa segura. 
+tambien existen capas de cifrado adicionales.
+
+ej, todo el trafico entre regiones del acvs y las conexiones de seguridad de capas de transportes. de clientes de servicios a servicios
+
+la red está diseñada para ser altamente redundate, cosa de no tener puntos unicos de falla.
+
+Se puede usar un servicio llaamdo aws directconect, que permite conectar sus centros de datos u oficinas existentes  a la red de aws, lo que facilita al establecimiento una conexion de directa y dedicada a aws. 
+
+### Resumen
+
+entonces para concluir y dar un resumen. 
+
+Para el día del examen solo debe recordar dos cosas.
+
+1. los servicios web de amazon son globales
+2. cómo  esta compuesta la infraestrucutura global aws.
